@@ -1,0 +1,22 @@
+.DS_Store
+/dist
+node_modules
+.sass-cache/
+logs/
+console.log
+platforms/android/.gradle
+platforms/android/.idea
+platforms/android/assets/www
+platforms/android/CordovaLib/build
+platforms/ios/www
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
