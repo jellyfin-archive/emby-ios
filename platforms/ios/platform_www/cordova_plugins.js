@@ -1,14 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/com.hutchind.cordova.plugins.launcher/www/Launcher.js",
-        "id": "com.hutchind.cordova.plugins.launcher.Launcher",
-        "pluginId": "com.hutchind.cordova.plugins.launcher",
-        "clobbers": [
-            "plugins.launcher"
-        ]
-    },
-    {
         "file": "plugins/com.drifty.cordova.cameraroll/www/CameraRoll.js",
         "id": "com.drifty.cordova.cameraroll.CameraRoll",
         "pluginId": "com.drifty.cordova.cameraroll",
@@ -90,23 +82,6 @@ module.exports = [
         "pluginId": "fw-cordova-chromecast",
         "clobbers": [
             "cordova.plugins.FWChromecast"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-network-information/www/network.js",
-        "id": "cordova-plugin-network-information.network",
-        "pluginId": "cordova-plugin-network-information",
-        "clobbers": [
-            "navigator.connection",
-            "navigator.network.connection"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-network-information/www/Connection.js",
-        "id": "cordova-plugin-network-information.Connection",
-        "pluginId": "cordova-plugin-network-information",
-        "clobbers": [
-            "Connection"
         ]
     },
     {
@@ -366,7 +341,6 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.hutchind.cordova.plugins.launcher": "0.2.2",
     "nl.x-services.plugins.backgroundaudio": "1.0.1",
     "cordova-plugin-webserver": "1.0.3",
     "com.drifty.cordova.cameraroll": "0.2.1",
@@ -377,10 +351,8 @@ module.exports.metadata =
     "cordova-plugin-chrome-apps-sockets-udp": "1.2.2",
     "cordova-plugin-statusbar": "2.0.0",
     "fw-cordova-chromecast": "0.0.1",
-    "cordova-plugin-network-information": "1.1.0",
     "com.rd11.remote-controls": "1.0.1",
     "cc.fovea.cordova.purchase": "6.0.0",
-    "cordova-plugin-crosswalk-webview": "2.0.0",
     "cordova-plugin-app-version": "0.1.9",
     "cordova-plugin-x-socialsharing": "5.1.3",
     "cordova-plugin-actionsheet": "2.3.1",

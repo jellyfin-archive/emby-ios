@@ -296,9 +296,6 @@
         }
     },
     "installed_plugins": {
-        "com.hutchind.cordova.plugins.launcher": {
-            "PACKAGE_NAME": "com.emby.mobile"
-        },
         "nl.x-services.plugins.backgroundaudio": {
             "PACKAGE_NAME": "com.emby.mobile"
         },
@@ -320,9 +317,6 @@
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.emby.mobile"
         },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.emby.mobile"
-        },
         "fw-cordova-chromecast": {
             "PACKAGE_NAME": "com.emby.mobile"
         },
@@ -330,9 +324,6 @@
             "PACKAGE_NAME": "com.emby.mobile"
         },
         "cc.fovea.cordova.purchase": {
-            "PACKAGE_NAME": "com.emby.mobile"
-        },
-        "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "com.emby.mobile"
         },
         "cordova-plugin-app-version": {

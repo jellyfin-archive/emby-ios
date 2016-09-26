@@ -23,23 +23,6 @@
         "is_top_level": false,
         "variables": {}
     },
-    "android.support.v4": {
-        "source": {
-            "type": "registry",
-            "id": "android.support.v4"
-        },
-        "is_top_level": false,
-        "variables": {}
-    },
-    "com.hutchind.cordova.plugins.launcher": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/nchutchind/App-Launcher-Cordova-Plugin.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "nl.x-services.plugins.backgroundaudio": {
         "source": {
             "type": "git",
@@ -109,23 +92,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-network-information": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-network-information"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "acidhax.cordova.chromecast": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/MediaBrowser/cordova-chromecast",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-android-support-v4": {
         "source": {
             "type": "registry",
@@ -177,15 +143,6 @@
         "variables": {
             "BILLING_KEY": "1"
         }
-    },
-    "cordova-plugin-crosswalk-webview": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
     },
     "cordova-plugin-app-version": {
         "source": {
