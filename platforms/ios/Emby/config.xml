@@ -19,9 +19,6 @@
     <feature name="ChromeSocketsUdp">
         <param name="ios-package" value="ChromeSocketsUdp" />
     </feature>
-    <feature name="Launcher">
-        <param name="ios-package" value="Launcher" />
-    </feature>
     <feature name="BackgroundAudio">
         <param name="ios-package" value="BackgroundAudio" />
         <param name="onload" value="true" />
@@ -43,9 +40,6 @@
     <preference name="StatusBarStyle" value="lightcontent" />
     <feature name="FWChromecast">
         <param name="ios-package" value="FWChromecast" />
-    </feature>
-    <feature name="NetworkStatus">
-        <param name="ios-package" value="CDVConnection" />
     </feature>
     <feature name="RemoteControls">
         <param name="ios-package" value="RemoteControls" />
