@@ -1,4 +1,4 @@
-﻿define(['datetime', 'jQuery', 'dom', 'cardStyle', 'listViewStyle'], function (datetime, $, dom) {
+﻿define(['datetime', 'jQuery', 'dom', 'humanedate', 'cardStyle', 'listViewStyle'], function (datetime, $, dom) {
 
     function renderNoHealthAlertsMessage(page) {
 
@@ -32,7 +32,7 @@
                 label: Globalize.translate('LabelFriendlyServerName'),
                 description: Globalize.translate('LabelFriendlyServerNameHelp'),
                 value: page.querySelector('.serverNameHeader').innerHTML,
-                submitText: Globalize.translate('ButtonSave')
+                confirmText: Globalize.translate('ButtonSave')
 
             }).then(function (value) {
 
