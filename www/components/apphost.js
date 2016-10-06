@@ -148,14 +148,16 @@ define(['appStorage', 'browser'], function (appStorage, browser) {
             features.push('fullscreen');
         }
 
-        if (browser.safari) {
+        if (!browser.mobile) {
+            if (browser.safari) {
 
-            if (browser.versionMajor && browser.versionMajor >= 10) {
+                if (browser.versionMajor && browser.versionMajor >= 10) {
+                    features.push('imageanalysis');
+                }
+
+            } else {
                 features.push('imageanalysis');
             }
-
-        } else if (!browser.msie) {
-            features.push('imageanalysis');
         }
 
         return features;
