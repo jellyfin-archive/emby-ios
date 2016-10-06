@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		04F6FC7527FA4B6682BB9587 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56589A630DC417D9D78FCD1 /* CFNetwork.framework */; };
 		07305E4BC6304C299222C84F /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ADD74614449D6B701A998 /* CDVLocalFilesystem.m */; };
@@ -22,7 +21,6 @@
 		24C4D27F9EF74A5591667528 /* AppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = AA72F02DCC5643F3890A200C /* AppVersion.m */; };
 		26C07A39D4B543CCABFB904E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671FD6782B74FB1A8814A6E /* CoreLocation.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		2A1BEEAC35414DDE90D2914F /* BackgroundAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC119E4CC9416AA4EA2946 /* BackgroundAudio.m */; };
 		2FB0945341ED4C92BEF289F0 /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D68CE608662442481449857 /* CDVSound.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
@@ -165,7 +163,6 @@
 		328087B8D9BA45C59D111F30 /* CDVWebViewUIDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVWebViewUIDelegate.m; path = com.telerik.plugins.wkwebview/CDVWebViewUIDelegate.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Emby-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Emby-Prefix.pch"; sourceTree = "<group>"; };
 		342EE30466124AD0A6CB3BB3 /* CDVFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; };
-		38FC119E4CC9416AA4EA2946 /* BackgroundAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundAudio.m; path = "nl.x-services.plugins.backgroundaudio/BackgroundAudio.m"; sourceTree = "<group>"; };
 		3919BA32D920484AB566C454 /* BackgroundDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundDownload.m; path = "org.apache.cordova.background-download/BackgroundDownload.m"; sourceTree = "<group>"; };
 		3F14394E959548C7B6B7754D /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4330620717C0471DB4E477AC /* libicucore.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
@@ -184,7 +181,6 @@
 		605ADD74614449D6B701A998 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; };
 		65CC08ADAE2F4CA894C2C936 /* IonicCameraRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicCameraRoll.h; path = com.drifty.cordova.cameraroll/IonicCameraRoll.h; sourceTree = "<group>"; };
 		6914D98F38D5474CAF37A79A /* AppVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppVersion.h; path = "cordova-plugin-app-version/AppVersion.h"; sourceTree = "<group>"; };
-		6AAFD15D090B49A9A0331AB7 /* BackgroundAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundAudio.h; path = "nl.x-services.plugins.backgroundaudio/BackgroundAudio.h"; sourceTree = "<group>"; };
 		722AA1E60ABD4EF29B921196 /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
 		73292DB4B28E4328BBFB7615 /* SelectDeviceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectDeviceDelegate.m; path = "fw-cordova-chromecast/SelectDeviceDelegate.m"; sourceTree = "<group>"; };
 		78C9A2390BFF4C4D9050DB93 /* OpenGLES.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -424,8 +420,6 @@
 			children = (
 				A3C30B071CAEEF4300DB4916 /* DeviceTextChannel.h */,
 				A3C30B081CAEEF4300DB4916 /* DeviceTextChannel.m */,
-				38FC119E4CC9416AA4EA2946 /* BackgroundAudio.m */,
-				6AAFD15D090B49A9A0331AB7 /* BackgroundAudio.h */,
 				9AF3A54C672247169A7323B1 /* IonicCameraRoll.m */,
 				65CC08ADAE2F4CA894C2C936 /* IonicCameraRoll.h */,
 				3919BA32D920484AB566C454 /* BackgroundDownload.m */,
@@ -687,7 +681,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				2A1BEEAC35414DDE90D2914F /* BackgroundAudio.m in Sources */,
 				549F66737C8F4BDBABD4002E /* IonicCameraRoll.m in Sources */,
 				F8002EF797EA4200A619F27E /* BackgroundDownload.m in Sources */,
 				30F46BA4550448E58DF5B216 /* MyMainViewController.m in Sources */,

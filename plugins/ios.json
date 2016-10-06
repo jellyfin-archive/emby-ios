@@ -296,9 +296,6 @@
         }
     },
     "installed_plugins": {
-        "nl.x-services.plugins.backgroundaudio": {
-            "PACKAGE_NAME": "com.emby.mobile"
-        },
         "cordova-plugin-webserver": {
             "PACKAGE_NAME": "com.emby.mobile"
         },

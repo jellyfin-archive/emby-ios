@@ -169,7 +169,7 @@
 
                 });
 
-                media.play();
+                media.play({ playAudioWhenScreenIsLocked: true });
 
                 currentMedia = media;
 

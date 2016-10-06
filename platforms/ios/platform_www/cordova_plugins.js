@@ -341,7 +341,6 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "nl.x-services.plugins.backgroundaudio": "1.0.1",
     "cordova-plugin-webserver": "1.0.3",
     "com.drifty.cordova.cameraroll": "0.2.1",
     "org.apache.cordova.background-download": "0.0.2",
