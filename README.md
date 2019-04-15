@@ -1,5 +1,5 @@
 **Note from Jellyfin:**
-This project is actually unusable in it's current state, and would require a significant re-write. We are working on newer client applications for the future, so please see our repository list for more:
+This project is archived and preserved for historical reasons. We are working on newer client applications for the future, so please see our repository list for more:
 https://github.com/jellyfin
 
 
